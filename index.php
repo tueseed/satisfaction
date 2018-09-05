@@ -26,6 +26,7 @@ margin-bottom: 10px;
     text-align: center;
 }
 .form-froup3{
+	text-align: center;
 	margin-bottom: 10px;
 }
 </style>
