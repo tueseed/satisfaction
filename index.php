@@ -45,10 +45,10 @@ margin-bottom: 10px;
             <div class="form-group2">
                 <h2>กรุณาประเมินความพึงพอใจ</h2>
             </div>
-			 <div class="form-group3">
+			 <div class="form-group2">
                     <input type="button" class="btn btn-success" value="พอใจมาก"/>
             </div>
-			<div class="form-group3">
+			<div class="form-group2">
                     <input type="button" class="btn btn-success" value="พอใจมาก"/>
             </div>
         </div>
