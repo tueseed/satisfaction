@@ -50,7 +50,7 @@ margin-bottom: 10px;
 	<div class="row">
 		<div class="col-lg-4 offset-4">
 		<div class="form-group">
-			<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="=ชื่อผู้ใช้งาน" />
+			<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="ชื่อผู้ใช้งาน" />
 		</div>
 		<div class="form-group">
 			<input class="form-control" type="text" name="textpass" id="textpass" value="" placeholder="รหัสผ่าน" />
