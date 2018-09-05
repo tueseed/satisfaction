@@ -49,8 +49,11 @@ margin-bottom: 10px;
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<input type="button" class="btn btn-success btn-block" value="พอใจมาก"/>
-		<input type="button" class="btn btn-success btn-block" value="พอใจมาก"/>
+		<input type="button" href="#" class="btn btn-success btn-block" value="พอใจมาก"/>
+		<input type="button" class="btn btn-primary btn-block" value="พอใจ"/>
+		<input type="button" class="btn btn-info btn-block" value="ปานกลาง"/>
+		<input type="button" class="btn btn-warning btn-block" value="ไม่พอใจ"/>
+		<input type="button" class="btn btn-danger btn-block" value="ไม่พอใจมาก"/>
 		</div>
 	</div>
 </div>
