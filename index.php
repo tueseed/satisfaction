@@ -50,14 +50,9 @@ margin-bottom: 10px;
 	<div class="row">
 		<div class="col-lg-4 offset-4">
 		<input type="button" class="btn btn-success btn-block" value="พอใจมาก"/>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-4 offset-4">
 		<input type="button" class="btn btn-success btn-block" value="พอใจมาก"/>
 		</div>
 	</div>
-
 </div>
 
 
