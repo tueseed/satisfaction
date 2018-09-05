@@ -26,8 +26,8 @@ margin-bottom: 10px;
     text-align: center;
 }
 .form-froup3{
-	text-align: center;
-	margin-bottom: 10px;
+	align: center;
+	margin-bottom: 100px;
 }
 </style>
 </head>
@@ -45,43 +45,15 @@ margin-bottom: 10px;
             <div class="form-group2">
                 <h2>กรุณาประเมินความพึงพอใจ</h2>
             </div>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group3">
+			 <div class="form-group3">
+                    <input type="button" class="btn btn-success" value="พอใจมาก"/>
+            </div>
+			<div class="form-group3">
                     <input type="button" class="btn btn-success" value="พอใจมาก"/>
             </div>
         </div>
     </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group3>
-                    <input type="button" class="btn btn-success" value="พอใจ"/>
-            </div>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group3">
-                    <input type="button" class="btn btn-success" value="ปานกลาง"/>
-            </div>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group3">
-                    <input type="button" class="btn btn-success" value="ไม่พอใจ"/>
-            </div>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group3">
-                    <input type="button" class="btn btn-success" value="ไม่พอใจมาก"/>
-            </div>
-        </div>
-    </div>
+	
 
 </div>
 
