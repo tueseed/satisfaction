@@ -21,14 +21,12 @@
 #container-fluid{
 margin-bottom: 10px;
 }
-.table-responsive{
-  display: block;
-  max-height: 500px;
-  overflow-y: auto;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
+
 .form-group2{
     text-align: center;
+}
+.form-froup3{
+	margin-bottom: 10px;
 }
 </style>
 </head>
@@ -50,35 +48,35 @@ margin-bottom: 10px;
     </div>
 	<div class="row">
         <div class="col-lg-12">
-            <div class="form-group2">
+            <div class="form-group3">
                     <input type="button" class="btn btn-success" value="พอใจมาก"/>
             </div>
         </div>
     </div>
 	<div class="row">
         <div class="col-lg-12">
-            <div class="form-group2">
+            <div class="form-group3>
                     <input type="button" class="btn btn-success" value="พอใจ"/>
             </div>
         </div>
     </div>
 	<div class="row">
         <div class="col-lg-12">
-            <div class="form-group2">
+            <div class="form-group3">
                     <input type="button" class="btn btn-success" value="ปานกลาง"/>
             </div>
         </div>
     </div>
 	<div class="row">
         <div class="col-lg-12">
-            <div class="form-group2">
+            <div class="form-group3">
                     <input type="button" class="btn btn-success" value="ไม่พอใจ"/>
             </div>
         </div>
     </div>
 	<div class="row">
         <div class="col-lg-12">
-            <div class="form-group2">
+            <div class="form-group3">
                     <input type="button" class="btn btn-success" value="ไม่พอใจมาก"/>
             </div>
         </div>
