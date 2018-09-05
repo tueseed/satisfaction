@@ -32,6 +32,15 @@ margin-bottom: 10px;
 </style>
 </head>
 <body>
+<?php
+	session_start();
+	if(!$_SESSION["STAFF_NAME"])
+        {
+            echo '<script type="text/javascript">';
+            echo 'window.location.href="login.php";';
+            echo '</script>';
+        }
+?>
 <div class="w3-container w3-purple">
     <div class="w3-row">
         <div class="w3-col w3-container l12 w3-center">  

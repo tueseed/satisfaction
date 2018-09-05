@@ -49,14 +49,16 @@ margin-bottom: 10px;
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<div class="form-group">
-			<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="ชื่อผู้ใช้งาน" />
-		</div>
-		<div class="form-group">
-			<input class="form-control" type="text" name="textpass" id="textpass" value="" placeholder="รหัสผ่าน" />
-		</div>
-		<input type="button" href="#" class="btn btn-success btn-block" value="เข้าสู่ระบบ"/>
-		</div>
+		<form name="form1" action="check_login.php" method="post">
+			<div class="form-group">
+				<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="ชื่อผู้ใช้งาน" />
+			</div>
+			<div class="form-group">
+				<input class="form-control" type="text" name="textpass" id="textpass" value="" placeholder="รหัสผ่าน" />
+			</div>
+			<input type="submit" class="btn btn-success btn-block" value="เข้าสู่ระบบ"/>
+			</div>
+		</form>
 	</div>
 
 
