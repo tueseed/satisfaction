@@ -49,8 +49,12 @@ margin-bottom: 10px;
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="รหัสผ่าน" />
-		<input class="form-control" type="text" name="textpass" id="textpass" value="" placeholder="รหัสผ่าน" />
+		<div class="form-group">
+			<input class="form-control" type="text" name="textuser" id="textuser" value="" placeholder="=ชื่อผู้ใช้งาน" />
+		</div>
+		<div class="form-group">
+			<input class="form-control" type="text" name="textpass" id="textpass" value="" placeholder="รหัสผ่าน" />
+		</div>
 		<input type="button" href="#" class="btn btn-success btn-block" value="เข้าสู่ระบบ"/>
 		</div>
 	</div>
