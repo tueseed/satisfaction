@@ -34,7 +34,7 @@ margin-bottom: 10px;
 <body>
 <?php
 	session_start();
-	if(!$_SESSION["STAFF_NAME"])
+	if(!$_SESSION["NAME"])
         {
             echo '<script type="text/javascript">';
             echo 'window.location.href="login.php";';
