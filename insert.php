@@ -32,15 +32,6 @@ margin-bottom: 10px;
 </style>
 </head>
 <body>
-<?php
-	session_start();
-	if(!$_SESSION["NAME"])
-        {
-            echo '<script type="text/javascript">';
-            echo 'window.location.href="login.php";';
-            echo '</script>';
-        }
-?>
 <div class="w3-container w3-purple">
     <div class="w3-row">
         <div class="w3-col w3-container l12 w3-center">  
@@ -48,28 +39,21 @@ margin-bottom: 10px;
         </div>
     </div>
 </div>
+<?php
+
+
+?>
 <div class="container-fluid">
 	<div class="row">
         <div class="col-lg-12">
             <div class="form-group2">
-                <h2>กรุณาประเมินความพึงพอใจ</h2>
-            </div>
-        </div>
-    </div>
-	<div class="row">
-        <div class="col-lg-12">
-            <div class="form-group2">
-                <h2><?php echo $_SESSION["NAME"]." ".$_SESSION["LASTNAME"]." ".$_SESSION["POSITION"]?></h2>
+                <h2>ขอบคุณที่ใช้บริการ</h2>
             </div>
         </div>
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<input type="button" href="insert.php?result=5" class="btn btn-success btn-block" value="พอใจมาก"/>
-		<input type="button" class="btn btn-primary btn-block" value="พอใจ"/>
-		<input type="button" class="btn btn-info btn-block" value="ปานกลาง"/>
-		<input type="button" class="btn btn-warning btn-block" value="ไม่พอใจ"/>
-		<input type="button" class="btn btn-danger btn-block" value="ไม่พอใจมาก"/>
+		<input type="button" href="index.php" class="btn btn-success btn-block" value="กลับสู่หน้าประเมินผล"/>
 		</div>
 	</div>
 </div>
