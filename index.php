@@ -66,10 +66,10 @@ margin-bottom: 10px;
 	<div class="row">
 		<div class="col-lg-4 offset-4">
 		<input type="button"  class="btn btn-success btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com/insert.php?result=5'" value="พอใจมาก"/>
-		<input type="button" class="btn btn-primary btn-block" value="พอใจ"/>
-		<input type="button" class="btn btn-info btn-block" value="ปานกลาง"/>
-		<input type="button" class="btn btn-warning btn-block" value="ไม่พอใจ"/>
-		<input type="button" class="btn btn-danger btn-block" value="ไม่พอใจมาก"/>
+		<input type="button" class="btn btn-primary btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com/insert.php?result=4'" value="พอใจ"/>
+		<input type="button" class="btn btn-info btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com/insert.php?result=3'" value="ปานกลาง"/>
+		<input type="button" class="btn btn-warning btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com/insert.php?result=2'" value="ไม่พอใจ"/>
+		<input type="button" class="btn btn-danger btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com/insert.php?result=1'" value="ไม่พอใจมาก"/>
 		</div>
 	</div>
 </div>
