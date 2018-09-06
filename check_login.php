@@ -33,6 +33,7 @@
 		$_SESSION["NAME"] = $objResult["name"];
 		$_SESSION["LAST_NAME"] = $objResult["lastname"];
 		$_SESSION["POSITION"] = $objResult["position"];
+		$_SESSION["STAFF_ID"] = $objresult["staff_id"];
 		echo '<script type="text/javascript">';
       	echo 'window.location.href="index.php";';
       	echo '</script>';
