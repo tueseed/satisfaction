@@ -59,7 +59,7 @@ margin-bottom: 10px;
 	<div class="row">
         <div class="col-lg-12">
             <div class="form-group2">
-                <h2><?php echo $_SESSION["NAME"]." ".$_SESSION["LASTNAME"]." ".$_SESSION["POSITION"]?></h2>
+                <h5><?php echo $_SESSION["NAME"]." ".$_SESSION["LAST_NAME"]." ".$_SESSION["POSITION"]?></h5>
             </div>
         </div>
     </div>
