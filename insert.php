@@ -61,7 +61,7 @@ if(isset($_POST["result"]))
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<input type="button" href="index.php" class="btn btn-success btn-block" value="กลับสู่หน้าประเมินผล"/>
+		<input type="button" class="btn btn-success btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com'" value="กลับสู่หน้าประเมินผล"/>
 		</div>
 	</div>
 </div>
