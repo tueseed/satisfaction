@@ -37,7 +37,7 @@ require('connect-db.php');
 session_start();
 if(isset($_POST["result"]))
 {
-	$sql_insert = "INSERT INTO tbl_satis(staff_id,name,lastname,result) VALUES('$_SESSION["STAFF_ID"]','$_SESSION["NAME"]','$_SESSION["LAST_NAME"]','$_POST["result"]')";
+	$sql_insert = "INSERT INTO tbl_satis(staff_id,name,lastname,result) VALUES('1111111','222222','3333333','44444')";
 	$query_result = mysqli_query($conn,$sql_insert);
 }
 ?>
