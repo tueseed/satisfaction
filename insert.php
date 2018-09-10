@@ -38,6 +38,7 @@ session_start();
 if(isset($_POST["result"]))
 {
 	$sql_insert = 'INSERT INTO tbl_satis(staff_id,name,lastname,result,timestamp,dd) VALUSE($_SESSION["STAFF_ID"],$_SESSION["NAME"],$_SESSION["LAST_NAME"],$_POST["result"])';
+	$query_result = mysqli_query($conn,$sql_insert);
 }
 ?>
 <div class="w3-container w3-purple">
@@ -61,7 +62,7 @@ if(isset($_POST["result"]))
     </div>
 	<div class="row">
 		<div class="col-lg-4 offset-4">
-		<input type="button" class="btn btn-success btn-block" onclick="window.location.href='https://satisfaction-ptr.herokuapp.com'" value="กลับสู่หน้าประเมินผล"/>
+		<input type="button" href="index.php" class="btn btn-success btn-block" value="กลับสู่หน้าประเมินผล"/>
 		</div>
 	</div>
 </div>
