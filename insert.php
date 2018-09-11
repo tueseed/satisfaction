@@ -56,7 +56,7 @@ if(isset($_POST["result"]))
 	<div class="row">
         <div class="col-lg-12">
             <div class="form-group2">
-                <h2>ขอบคุณที่ใช้บริการ</h2>
+                <h2>ขอบคุณที่ใช้บริการ  <?php echo $_POST["result"]; ?></h2>
             </div>
         </div>
     </div>
