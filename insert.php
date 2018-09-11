@@ -37,7 +37,7 @@ require('connect-db.php');
 session_start();
 if(isset($_GET["result"]))
 {
-	$sql_insert = "INSERT INTO tbl_satis(staff_id,name,lastname,result) VALUES('1111111','222222','3333333','44444')";
+	$sql_insert = "INSERT INTO tbl_satis(staff_id,name,lastname,result) VALUES('$_SESSION["STAFF_ID"]','222222','3333333','44444')";
 	$query_result = mysqli_query($conn,$sql_insert);
 }
 ?>
@@ -48,10 +48,6 @@ if(isset($_GET["result"]))
         </div>
     </div>
 </div>
-<?php
-
-
-?>
 <div class="container-fluid">
 	<div class="row">
         <div class="col-lg-12">
@@ -66,10 +62,5 @@ if(isset($_GET["result"]))
 		</div>
 	</div>
 </div>
-
-
-
-
-
 </body>
 </html>
